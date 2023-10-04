@@ -1,0 +1,48 @@
+
+@host=localhost
+@port=3000
+
+GET http://{{host}}:{{port}}/api/students
+
+### 
+
+GET http://{{host}}:{{port}}/api/student/10
+
+### 
+
+GET http://{{host}}:{{port}}/api/student/z
+
+
+
+
+
+
+
+
+
+###
+
+GET http://{{host}}:{{port}}/api/employees
+
+### 
+POST http://{{host}}:{{port}}/api/employees HTTP/1.1
+Content-Type: application/json
+
+{
+  "first_name": "Tresten",
+  "last_name": "Pool",
+  "email": "trestenpool@gmail.com"
+}
+
+### 
+PUT http://{{host}}:{{port}}/api/employees/11 HTTP/1.1
+Content-Type: application/json
+
+{
+  "first_name": "Tresten",
+  "last_name": "Pool",
+  "email": "trestenpool@gmail.com"
+}
+
+### 
+DELETE http://{{host}}:{{port}}/api/employees/6

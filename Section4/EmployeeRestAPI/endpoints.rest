@@ -1,0 +1,14 @@
+@host=localhost
+@port=3000
+
+# Get all employees
+GET http://{{host}}:{{port}}/api/employees
+
+### Insert a new employee
+POST http://{{host}}:{{port}}/api/employees HTTP/1.1
+Content-Type: application/json
+{
+  "first_name": "Tresten",
+  "last_name": "Pool",
+  "email": "trestenpool@gmail.com"
+}
