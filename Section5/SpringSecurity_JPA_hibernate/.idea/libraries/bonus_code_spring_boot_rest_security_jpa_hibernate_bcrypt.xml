@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="bonus-code-spring-boot-rest-security-jpa-hibernate-bcrypt">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bonus-code-spring-boot-rest-security-jpa-hibernate-bcrypt.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

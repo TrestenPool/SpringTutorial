@@ -2,54 +2,51 @@
 @host=localhost
 @port=3000
 
-GET http://{{host}}:{{port}}/api/students
-
-### 
-
-GET http://{{host}}:{{port}}/api/student/10
-
-### 
-
-GET http://{{host}}:{{port}}/api/student/z
-
-
-
-
-
-
+@basePath=http://{{host}}:{{port}}/api
 
 
 
 ###
 # Get all employees
-GET http://{{host}}:{{port}}/api/employees?sort=email,asc
+GET {{basePath}}/employees
+Content-Type: application/json
+Authorization: Basic john:fun123
 
 ### 
 # get single employee
-GET http://{{host}}:{{port}}/api/employees/7
+GET {{basePath}}/employees/2
+Content-Type: application/json
+Authorization: Basic mary:test123
 
 ### 
 # Insert new employee
-POST http://{{host}}:{{port}}/api/employees HTTP/1.1
+POST {{basePath}}/employees
 Content-Type: application/json
+Authorization: Basic mary:test123
 
 {
-  "first_name": "Noah",
-  "last_name": "Pool",
-  "email": "noahpool@gmail.com"
-}
-
-### 
-# Update employee
-PUT http://{{host}}:{{port}}/api/employees/7 HTTP/1.1
-Content-Type: application/json
-
-{
-  "first_name": "Tresten",
-  "last_name": "Pool",
+  "firstName": "Tresten",
+  "lastName": "Pool",
   "email": "trestenpool@gmail.com"
 }
 
 ### 
+# Update employee
+PUT {{basePath}}/employees
+Content-Type: application/json
+Authorization: Basic mary:test123
+
+{
+  "id": 8,
+  "firstName": "Trestenz",
+  "lastName": "Pool",
+  "email": "trestenpool@gmail.com"
+}
+
+
+
+### 
 # Delete employee
-DELETE http://{{host}}:{{port}}/api/employees/7
+DELETE  {{basePath}}/employees/2
+Content-Type: application/json
+Authorization: Basic susan:fun123
