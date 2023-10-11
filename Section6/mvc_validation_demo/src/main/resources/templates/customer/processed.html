@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Processed Form</title>
+</head>
+
+<body>
+    <h3>Results</h3>
+    First name: <span th:text="${customer.firstName}"></span>
+    Last name: <span th:text="${customer.lastName}"></span>
+    Free passes: <span th:text="${customer.freePasses}"></span>
+    Postal Code: <span th:text="${customer.postalCode}"></span>
+    Course Code: <span th:text="${customer.courseCode}"></span>
+</body>
+
+</html>
