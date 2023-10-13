@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="UTF-8">
+    <title>Leaders Home</title>
+</head>
+<body>
+    <h2>Leaders Home page</h2>
+    <hr>
+    Leaders attention up
+    <hr>
+
+    <p>
+        We are having a free vacation to Cancun for managers only, hush hush..
+    </p>
+
+
+
+    <!-- Add a link back to home page -->
+    <p>
+        <a th:href="@{/}">Go back</a>
+    </p>
+
+    <!-- Logout button -->
+    <form th:action="@{/logout}" method="POST">
+        <input type="submit" value="Logout">
+    </form>
+
+</body>
+</html>
