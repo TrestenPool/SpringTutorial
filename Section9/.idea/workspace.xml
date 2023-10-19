@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f6256f76-e492-48cd-964f-90fa5e7ff699" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/instructor_course_demo/src/main/java/com/tpool/relationships/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instructor_course_demo/src/main/java/com/tpool/relationships/repository/CourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instructor_course_demo/src/main/java/com/tpool/relationships/service/InstructorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instructor_course_demo/src/main/java/com/tpool/relationships/service/InstructorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instructor_instructorDetail_demo/src/main/java/com/tpool/relationships/entity/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instructor_instructorDetail_demo/src/main/java/com/tpool/relationships/entity/InstructorDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instructor_instructorDetail_demo/src/main/java/com/tpool/relationships/repository/AppRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instructor_instructorDetail_demo/src/main/java/com/tpool/relationships/repository/InstructorDetailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instructor_instructorDetail_demo/src/main/java/com/tpool/relationships/repository/InstructorDetailRepositoryImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2WuplMVE9N0QszABils0g2OqjxD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6256f76-e492-48cd-964f-90fa5e7ff699" name="Changes" comment="" />
+      <created>1697592468971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697592468971</updated>
+    </task>
+    <servers />
+  </component>
+</project>
